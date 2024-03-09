@@ -1,0 +1,33 @@
+{
+    "name": "chia-minter-tool",
+    "version": "0.10.3",
+    "description": "Utility to ease minting of Chia NFTs",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gorately/chia-minter.git"
+    },
+    "keywords": [
+        "chia",
+        "nft",
+        "mint",
+        "crypto",
+        "cryptocurrency"
+    ],
+    "author": "gorately@gmail.com",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "eslint": "^8.21.0",
+        "jshint": "^2.13.5"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chia-daemon": "^0.12.3",
+        "lodash": "^4.17.21",
+        "nft.storage": "^7.0.0",
+        "secure-string": "^1.2.1",
+        "uuid": "^8.3.2"
+    },
+    "type": "module"
+}
